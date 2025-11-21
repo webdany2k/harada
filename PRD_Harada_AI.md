@@ -1,268 +1,267 @@
-# PRD -- Sistema de Tableros de Metas Basado en el Método Harada con Agentes de IA (Gemini)
+# PRD — Sistema de Tableros de Metas Basado en el Método Harada con Agentes de IA (Gemini)
 
 ## 1. Resumen Ejecutivo
 
-El objetivo es construir, durante un hackathon de tiempo limitado, un
-producto funcional que genere dinámicamente tableros de metas estilo
-Harada usando modelos de lenguaje (LLMs) mediante la API de Gemini.\
-El sistema permitirá crear un tablero de 64 celdas basado en una meta
-principal, generar automáticamente pilares y subactividades, y usar
-agentes de IA para sugerir acciones, registrar avances y dar
-retroalimentación inteligente.
+**HaradaAI** es una aplicación web que genera dinámicamente tableros de metas estilo Harada usando modelos de lenguaje (LLMs) mediante la API de Gemini. El sistema permite crear un tablero de 64 celdas basado en una meta principal, generar automáticamente pilares y subactividades, y usar agentes de IA para clasificar avances, proporcionar recomendaciones personalizadas y facilitar la reflexión mediante un diario integrado.
+
+**Estado actual:** MVP funcional con Dashboard, generación de tableros, registro de actividades con clasificación IA, visualización de progreso, Journal y AI Coach.
+
+---
 
 ## 2. Objetivo del Producto
 
-Crear una aplicación web ligera que: 1. Reciba la meta del usuario. 2.
-Genere automáticamente: - Los 8 pilares principales. - 8 sub‑metas por
-pilar (64 celdas total). 3. Permita registrar actividades tipo "commit".
-4. Use agentes de IA para: - Clasificar la actividad dentro del
-tablero. - Medir progreso en cada pilar. - Recomendar próximas acciones.
-5. Genere un tablero visualizable y compartible vía URL.
+Crear una aplicación web que:
+1. Reciba la meta del usuario.
+2. Genere automáticamente:
+   - Los 8 pilares principales.
+   - 8 sub-metas por pilar (64 celdas total).
+3. Permita registrar actividades tipo "commit".
+4. Use agentes de IA para:
+   - Clasificar la actividad dentro del tablero.
+   - Medir progreso en cada pilar.
+   - Recomendar próximas acciones.
+   - Proveer motivación y coaching personalizado.
+5. Facilite la reflexión mediante un diario con imágenes y etiquetas.
+6. Genere un tablero visualizable con progreso en tiempo real.
+
+---
 
 ## 3. Usuarios Meta
 
 ### Primarios
+- Personas que quieren estructurar objetivos personales o profesionales.
+- Emprendedores y profesionales buscando claridad estratégica.
+- Estudiantes y atletas con metas de alto rendimiento.
 
--   Personas que quieren estructurar objetivos personales o
-    profesionales.
--   Participantes del hackathon. \### Secundarios
--   Coaches, mentores o streamers que guíen sesiones como la que aparece
-    en el transcript.
+### Secundarios
+- Coaches, mentores o facilitadores de desarrollo personal.
+- Equipos que deseen alinear objetivos colectivos.
+
+---
 
 ## 4. Funcionalidades Principales
 
-### 4.1 Generación Automática de Tablero (Core)
+### 4.1 Dashboard ✅ **IMPLEMENTADO**
+- **Vista de todos los tableros:** Lista de boards con fecha de creación y resumen de progreso.
+- **Persistencia:** Guardado automático en `database.json`.
+- **Navegación:** Crear nuevo tablero o abrir uno existente.
 
--   Input: meta del usuario.
--   Output: tablero Harada de 64 celdas con texto generado por LLM.
--   Parámetros generados por IA:
-    -   Descripción de la meta.
-    -   8 pilares principales.
-    -   8 sub‑metas por pilar.
+### 4.2 Generación Automática de Tablero ✅ **IMPLEMENTADO**
+- **Input:** Meta del usuario en lenguaje natural.
+- **Output:** Tablero Harada de 64 celdas generado por Gemini.
+- **Parámetros generados:**
+  - Descripción de la meta.
+  - 8 pilares principales.
+  - 8 sub-metas por pilar.
+- **Estética:** Dark Glassmorphism con animaciones suaves.
 
-### 4.2 Registro de Actividades ("Commits")
+### 4.3 Registro de Actividades ("Commits") ✅ **IMPLEMENTADO**
+- **Input:** Texto libre (e.g., "Corrí 5km hoy").
+- **Clasificación por IA:**
+  - Identifica pilares impactados.
+  - Asigna puntuación (1-5) por pilar.
+  - Actualiza `pillarScores` en tiempo real.
+- **Visualización:** Log de actividades con timestamp y explicación del impacto.
 
--   Campo para capturar actividad.
--   Agente evalúa:
-    -   En qué pilares impacta.
-    -   Nivel de impacto (bajo/medio/alto).
-    -   Representación visual del progreso.
+### 4.4 Visualización del Tablero ✅ **IMPLEMENTADO**
+- **Grid 8x8:** Cada celda representa un pilar o sub-meta.
+- **Progreso visual:**
+  - Pilares se iluminan con gradiente cyan según puntuación acumulada.
+  - Animaciones de hover y pulsación en la meta central.
+- **Responsivo:** Adaptado para desktop y tablets.
 
-### 4.3 Visualización del Tablero
+### 4.5 Journal (Diario de Reflexión) ✅ **IMPLEMENTADO**
+- **Funcionalidades:**
+  - Entrada de texto multi-línea.
+  - Adjuntar imágenes mediante URL.
+  - Sistema de etiquetas (tags) para categorización.
+- **Timeline:** Vista cronológica inversa de todas las entradas.
+- **Persistencia:** Integrado con el board (`journalEntries` array).
 
--   Muestra cada pilar con su nivel de avance.
--   Resumen general del progreso.
--   Dashboard con colores:
-    -   verde: bien trabajado
-    -   amarillo: medio
-    -   rojo: poco trabajado
+### 4.6 AI Coach ✅ **IMPLEMENTADO**
+- **Análisis contextual:**
+  - Lee la meta, pilares, actividades recientes y entradas del diario.
+  - Identifica pilares con bajo progreso.
+- **Salida:**
+  - 3 recomendaciones específicas y accionables.
+  - Frase motivacional personalizada.
+- **UI:** Botón flotante en la vista del tablero, modal elegante con animaciones.
 
-### 4.4 Recomendaciones Inteligentes
+### 4.7 URLs Compartibles 🔄 **PARCIALMENTE IMPLEMENTADO**
+- Cada board tiene un `id` único.
+- Frontend puede cargar board por ID.
+- **Pendiente:** Sistema de compartir público/privado.
 
--   El LLM sugiere:
-    -   Actividades de impacto alto.
-    -   Cómo equilibrar el tablero.
-    -   Próximos pasos basados en avance acumulado.
+---
 
-### 4.5 URLs Compartibles
-
--   Tablero accesible mediante un ID único.
-
-------------------------------------------------------------------------
-
-## 5. Arquitectura de Alto Nivel
+## 5. Arquitectura Técnica
 
 ### Frontend
-
--   React (ideal para hackathon).
--   Componentes:
-    -   Formulario de meta.
-    -   Visualizador de tablero.
-    -   Panel de actividades.
-    -   Dashboard de progreso.
+- **Tecnología:** React + Vite
+- **Estilo:** TailwindCSS + Framer Motion
+- **Iconos:** lucide-react
+- **Componentes principales:**
+  - `Dashboard.jsx` - Lista de boards
+  - `GoalInput.jsx` - Formulario de meta inicial
+  - `BoardGrid.jsx` - Visualización del tablero 8x8
+  - `ActivityLog.jsx` - Registro de commits
+  - `Journal.jsx` - Diario con timeline
+  - `Coach.jsx` - Modal del AI Coach
 
 ### Backend
+- **Tecnología:** Node.js + Express
+- **API Endpoints:**
+  - `POST /api/generate` - Genera nuevo tablero
+  - `GET /api/boards` - Lista todos los boards
+  - `GET /api/board/:id` - Obtiene board por ID
+  - `POST /api/commit` - Registra actividad
+  - `POST /api/journal` - Añade entrada al diario
+  - `POST /api/coach` - Solicita recomendaciones del coach
 
--   Node.js + Express o Python FastAPI.
--   Endpoints esenciales:
-    -   POST /generate-board
-    -   POST /commit
-    -   GET /board/:id
-
-### Base de datos
-
--   Supabase o Firebase por velocidad.
+### Base de Datos
+- **Actual:** Archivo JSON (`database.json`) con persistencia en disco.
+- **Futuro:** Migrar a Supabase/PostgreSQL para escalabilidad.
 
 ### Integración LLM (Gemini API)
+- **Modelos con fallback:**
+  1. `gemini-2.5-flash-lite`
+  2. `gemini-2.0-flash-lite-preview-02-05`
+  3. `gemini-2.0-flash-exp`
+  4. `gemini-1.5-flash`
+- **Prompts modulares:**
+  - Generación de pilares y sub-metas.
+  - Clasificación de actividades.
+  - Generación de coaching personalizado.
+
+---
+
+## 6. Estado de Implementación
+
+### ✅ Completado
+- [x] Infraestructura backend + Gemini API
+- [x] Esquemas de datos (Board, Pillars, SubGoals, Commits, JournalEntries)
+- [x] Endpoint `/api/generate`
+- [x] Endpoint `/api/commit` con clasificación IA
+- [x] Endpoint `/api/boards` para Dashboard
+- [x] Endpoint `/api/journal`
+- [x] Endpoint `/api/coach`
+- [x] Frontend: Formulario de meta
+- [x] Frontend: Grid 8×8 con visualización de progreso
+- [x] Frontend: Panel de actividades
+- [x] Frontend: Dashboard de tableros guardados
+- [x] Frontend: Journal con tags e imágenes
+- [x] Frontend: AI Coach modal
+- [x] Persistencia basada en archivos
+- [x] Visualización de impacto con colores dinámicos
+
+### 🔄 En Progreso / Pendiente
+- [ ] Optimización de prompts para mejores recomendaciones
+- [ ] Testing end-to-end
+- [ ] Manejo robusto de errores de red
+
+---
+
+## 7. Roadmap: Funcionalidades Futuras
+
+### 7.1 Exportación y Compartir
+- **PDF Export:** Generar documento imprimible del tablero con resumen de progreso.
+- **Image Export:** Captura visual del tablero para compartir en redes sociales.
+- **Public URLs:** Modo público/privado para tableros compartibles.
+- **Embed Code:** Widget embebible para blogs o portfolios.
+
+### 7.2 Analíticas y Reportes
+- **Dashboard de Analytics:**
+  - Gráficos de progreso por semana/mes.
+  - Identificación de racha más larga de commits.
+  - Heatmap de actividad.
+- **Comparación temporal:** Ver cómo han evolucionado los pilares en el tiempo.
+
+### 7.3 Mejoras en AI Coach
+- **Coach conversacional:** Chat continuo con historial de conversaciones.
+- **Check-ins programados:** Notificaciones inteligentes para revisar progreso.
+- **Modo mentor:** Preguntas reflexivas tipo coaching profesional.
+- **Detección de obstáculos:** IA identifica patrones de procrastinación.
+
+### 7.4 Gamificación
+- **Sistema de logros:** Badges por hitos alcanzados (e.g., "10 días consecutivos").
+- **Niveles de pilares:** Desbloqueables visuales conforme un pilar alcanza cierto score.
+- **Retos semanales:** Sugerencias de desafíos específicos.
+
+### 7.5 Colaboración
+- **Tableros compartidos:** Múltiples usuarios trabajando en una meta común.
+- **Comentarios:** Feedback entre co-equipiers.
+- **Modo equipo:** Visualización de contribuciones individuales.
+
+### 7.6 Integraciones
+- **Calendario (Google Calendar, Outlook):**
+  - Sincronizar actividades planificadas.
+  - Recordatorios automáticos.
+- **To-Do Apps (Todoist, Notion):**
+  - Importar/exportar sub-metas como tareas.
+- **Wearables (Fitbit, Apple Health):**
+  - Auto-tracking de actividades físicas.
+
+### 7.7 Personalización
+- **Temas:** Light mode, otros esquemas de color.
+- **Templates de metas:** Plantillas pre-configuradas (e.g., "Ser mejor programador", "Correr maratón").
+- **Custom icons:** Iconografía personalizada por pilar.
+
+### 7.8 Móvil
+- **Progressive Web App (PWA):**
+  - Instalable en dispositivos móviles.
+  - Funcionalidad offline.
+- **App Nativa (React Native):**
+  - Notificaciones push nativas.
+  - Mejor rendimiento en móviles.
+
+### 7.9 Seguridad y Privacidad
+- **Autenticación:** Login con Google/GitHub.
+- **Encriptación de datos sensibles.**
+- **Control de privacidad granular.**
+
+### 7.10 IA Avanzada
+- **Refinamiento de metas:** IA sugiere ajustar pilares si detecta desbalance.
+- **Predicción de éxito:** Modelo que estima probabilidad de alcanzar la meta.
+- **Generación de sub-sub-metas:** Descomposición recursiva para metas muy complejas.
+
+---
 
--   Uso de prompts modulares:
-    1.  Generación de pilares.
-    2.  Generación de sub‑metas.
-    3.  Clasificación de actividades.
-    4.  Recomendación de acciones inteligentes.
+## 8. Métricas de Éxito
 
-------------------------------------------------------------------------
+### Actuales
+- ✅ Tablero se genera < 5 segundos.
+- ✅ Commit clasificado en < 4 segundos.
+- ✅ Flujo completado por usuario en < 2 minutos.
+- ✅ Build pasa sin errores.
 
-## 6. User Stories
+### Futuras
+- Retención de usuarios (% que regresan después de 7 días).
+- Número promedio de commits por tablero.
+- Adopción del AI Coach (% de usuarios que lo usan).
+- NPS (Net Promoter Score) > 8/10.
 
-1.  *Como usuario quiero ingresar mi meta para generar automáticamente
-    un tablero de 64 celdas.*
-2.  *Como usuario quiero registrar mis avances para ver cómo progresa
-    cada pilar.*
-3.  *Como usuario quiero recibir recomendaciones personalizadas.*
-4.  *Como usuario quiero compartir mi tablero.*
+---
 
-------------------------------------------------------------------------
+## 9. Riesgos y Mitigación
 
-## 7. Requerimientos Funcionales
+| Riesgo | Impacto | Mitigación |
+|--------|---------|------------|
+| Gemini API lenta/inestable | Alto | Fallback entre modelos, cache de respuestas |
+| Crecimiento de `database.json` | Medio | Migrar a DB relacional cuando > 100 boards |
+| UX compleja en móvil | Medio | Priorizar responsive design, considerar PWA |
+| Costos de API altos | Medio | Monitoreo, rate limiting, tier gratuito |
 
-### RF1 -- Generación de Tablero
+---
 
--   RF1.1 El usuario ingresa la meta.
--   RF1.2 El sistema llama a un LLM para generar:
-    -   8 pilares.
-    -   8 sub‑metas por pilar.
--   RF1.3 El tablero se guarda en BD.
+## 10. Conclusión
 
-### RF2 -- Registro de Actividades
+**HaradaAI v0.3** es un MVP robusto que valida el concepto central: usar IA generativa para estructurar y trackear metas complejas. Las funcionalidades de Journal y AI Coach agregan una capa de reflexión y mentoría que diferencia el producto.
 
--   RF2.1 El usuario ingresa texto libre.
--   RF2.2 Un agente clasifica el impacto.
--   RF2.3 El tablero se actualiza.
+### Próximos pasos inmediatos:
+1. **Testing de usuario:** Obtener feedback de 5-10 usuarios beta.
+2. **Optimización de prompts:** Mejorar calidad de recomendaciones del Coach.
+3. **Deploy a producción:** Vercel/Netlify para frontend, Railway/Render para backend.
+4. **Documentación:** README completo con setup instructions.
 
-### RF3 -- Recomendaciones
-
--   RF3.1 El LLM analiza historial.
--   RF3.2 El LLM genera actividades sugeridas.
-
-### RF4 -- Visualización
-
--   RF4.1 Dashboard de 8×8 celdas.
--   RF4.2 Colores según nivel de progreso.
-
-------------------------------------------------------------------------
-
-## 8. Tareas y Subtareas Técnicas
-
-### **8.1 Backend**
-
-#### 8.1.1 Endpoints
-
--   [ ] Crear endpoint `/generate-board`
--   [ ] Crear endpoint `/commit`
--   [ ] Crear endpoint `/recommend`
--   [ ] Crear endpoint `/board/:id`
-
-#### 8.1.2 Integración con Gemini
-
--   [ ] Crear cliente API.
--   [ ] Prompt 1: generación de pilares.
--   [ ] Prompt 2: sub‑metas.
--   [ ] Prompt 3: clasificación de actividad.
--   [ ] Prompt 4: recomendaciones.
-
-#### 8.1.3 Modelos DB
-
--   [ ] Board
--   [ ] Pillar
--   [ ] Subgoal
--   [ ] ActivityLog
-
-------------------------------------------------------------------------
-
-### **8.2 Frontend**
-
-#### 8.2.1 Formulario inicial
-
--   [ ] Input de meta.
--   [ ] Botón "Generar".
-
-#### 8.2.2 Tablero
-
--   [ ] Grid 8×8.
--   [ ] Sección de pilares.
--   [ ] Modal para ver sub‑metas.
-
-#### 8.2.3 Actividades
-
--   [ ] Formulario de commit.
--   [ ] Lista de actividades recientes.
-
-#### 8.2.4 Dashboard
-
--   [ ] Visualización de impacto.
--   [ ] Colores dinámicos.
-
-------------------------------------------------------------------------
-
-### **8.3 IA y Lógica**
-
-#### 8.3.1 Agente generador de tablero
-
--   [ ] Prompt engineering.
--   [ ] Validación de longitud.
--   [ ] Mapeo a estructura del backend.
-
-#### 8.3.2 Agente clasificador
-
--   [ ] Determinar relevancia.
--   [ ] Mapear múltiples pilares.
-
-#### 8.3.3 Agente recomendador
-
--   [ ] Sugerencias de mayor impacto.
--   [ ] Identificación de áreas débiles.
-
-------------------------------------------------------------------------
-
-## 9. Métricas de Éxito
-
--   Tablero se genera \< 4 segundos.
--   Commit clasificado en \< 3 segundos.
--   Flujo completado por usuario en \< 2 minutos.
--   Tasa de errores de API \< 5%.
-
-------------------------------------------------------------------------
-
-## 10. Cronograma para Hackathon (4--6 horas)
-
-### Hora 1 --- Base técnica
-
--   Infraestructura backend + Gemini API.
--   Esquemas DB.
-
-### Hora 2 --- Generación del tablero
-
--   Conectar frontend con `/generate-board`.
-
-### Hora 3 --- Commits y clasificación
-
--   Registro y análisis de actividad.
-
-### Hora 4 --- Dashboard visual
-
--   Colores + vista de avance.
-
-### Hora 5 (opcional) --- Recomendaciones
-
--   Agente sugeridor.
-
-### Hora 6 (opcional) --- URLs compartibles
-
--   Deploy final.
-
-------------------------------------------------------------------------
-
-## 11. Riesgos y Mitigación
-
--   **Tiempo limitado** → enfoque MVP.
--   **Respuestas largas de LLM** → prompts breves y con formato fijo.
--   **Inestabilidad del modelo** → fallback de textos simples.
-
-------------------------------------------------------------------------
-
-## 12. MVP Final (Entrega del Hackathon)
-
--   Generador de tableros funcional.
--   Registro de actividades con clasificación por IA.
--   Visualización de progreso.
+### Visión a largo plazo:
+Convertir HaradaAI en la plataforma de referencia para alcanzar metas ambiciosas mediante la combinación de metodología comprobada (Harada) y asistencia inteligente continua (Gemini).
