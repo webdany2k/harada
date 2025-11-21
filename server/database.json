@@ -1,0 +1,925 @@
+{
+  "1763690494186": {
+    "id": "1763690494186",
+    "createdAt": "2025-11-21T02:01:34.186Z",
+    "mainGoal": "Become an astronaut",
+    "pillars": [
+      {
+        "title": "Education & Academics",
+        "subGoals": [
+          "Earn a Bachelor's degree in STEM field (e.g., Engineering, Physics, Biology)",
+          "Maintain a GPA of 3.5 or higher",
+          "Complete advanced coursework in relevant subjects (e.g., calculus, orbital mechanics)",
+          "Pursue a Master's or Doctoral degree in a specialized area",
+          "Achieve high scores on standardized tests (e.g., GRE, medical exams if applicable)",
+          "Publish research papers in academic journals",
+          "Attend relevant academic conferences and workshops",
+          "Secure strong letters of recommendation from professors"
+        ]
+      },
+      {
+        "title": "Physical & Mental Fitness",
+        "subGoals": [
+          "Maintain excellent cardiovascular health (e.g., regular running, swimming)",
+          "Engage in strength training to build physical resilience",
+          "Develop good nutrition habits and maintain a healthy weight",
+          "Practice mindfulness and stress management techniques",
+          "Undergo regular medical check-ups and maintain peak physical condition",
+          "Participate in activities that test endurance and mental fortitude (e.g., hiking, marathons)",
+          "Develop strong sleep hygiene and recovery routines",
+          "Learn and practice survival skills relevant to remote environments"
+        ]
+      },
+      {
+        "title": "Technical Skills & Experience",
+        "subGoals": [
+          "Gain hands-on experience in relevant technical fields (e.g., coding, robotics)",
+          "Acquire piloting experience (e.g., private pilot license)",
+          "Develop proficiency in operating complex machinery and equipment",
+          "Learn about spacecraft systems and operations",
+          "Engage in engineering projects or design challenges",
+          "Seek internships or co-op positions in aerospace or related industries",
+          "Become certified in relevant technical skills (e.g., SCUBA diving for EVA simulation)",
+          "Develop problem-solving skills under pressure"
+        ]
+      },
+      {
+        "title": "Teamwork & Leadership",
+        "subGoals": [
+          "Participate in team-based projects and demonstrate effective collaboration",
+          "Develop strong communication skills, both verbal and written",
+          "Take on leadership roles in academic or extracurricular activities",
+          "Learn to resolve conflicts constructively within a team",
+          "Practice active listening and empathy",
+          "Gain experience working with diverse groups of people",
+          "Understand and adapt to different leadership styles",
+          "Volunteer for roles that require responsibility and dependability"
+        ]
+      },
+      {
+        "title": "Space Exploration Knowledge",
+        "subGoals": [
+          "Study the history and current state of space exploration",
+          "Learn about different space agencies and their missions",
+          "Understand the challenges and rewards of human spaceflight",
+          "Follow developments in new space technologies and research",
+          "Read biographies of famous astronauts and scientists",
+          "Learn about orbital mechanics and astrodynamics",
+          "Understand space weather and its impact on missions",
+          "Develop a deep appreciation for the scientific and exploratory aspects of space"
+        ]
+      },
+      {
+        "title": "Adaptability & Resilience",
+        "subGoals": [
+          "Seek out challenging experiences that push comfort zones",
+          "Develop coping mechanisms for isolation and confinement",
+          "Learn to thrive in high-stress environments",
+          "Practice problem-solving in unpredictable situations",
+          "Embrace continuous learning and adaptation",
+          "Develop patience and perseverance through setbacks",
+          "Cultivate a positive outlook and mental toughness",
+          "Gain experience in unfamiliar and demanding environments"
+        ]
+      },
+      {
+        "title": "Application & Selection Process",
+        "subGoals": [
+          "Thoroughly research astronaut selection criteria for target agencies",
+          "Prepare a compelling resume and application",
+          "Practice interview questions and behavioral assessments",
+          "Undergo psychological evaluations and team exercises",
+          "Successfully pass all medical and physical fitness tests",
+          "Demonstrate suitability for long-duration space missions",
+          "Network with individuals in the aerospace industry",
+          "Be prepared for multiple application cycles and learn from each attempt"
+        ]
+      },
+      {
+        "title": "Continuous Improvement & Learning",
+        "subGoals": [
+          "Stay updated on the latest advancements in space technology",
+          "Seek mentorship from experienced professionals",
+          "Continuously assess and improve skills identified in the selection process",
+          "Learn new languages relevant to international space collaboration",
+          "Engage in lifelong learning across diverse disciplines",
+          "Seek feedback and act upon constructive criticism",
+          "Maintain a strong network within the aerospace community",
+          "Develop a personal growth plan for ongoing development"
+        ]
+      }
+    ],
+    "commits": [
+      {
+        "id": "1763690511333",
+        "text": "Read 20 pages of orbital mechanics textbook",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 4
+            },
+            {
+              "pillarIndex": 5,
+              "score": 3
+            },
+            {
+              "pillarIndex": 7,
+              "score": 3
+            }
+          ],
+          "summary": "Reading about orbital mechanics directly contributes to the Education & Academics pillar by building foundational knowledge. It also supports Space Exploration Knowledge by providing context for how spacecraft operate and Adaptability & Resilience by helping to understand complex systems, which is crucial for problem-solving in space. Furthermore, it fosters Continuous Improvement & Learning by expanding one's understanding of essential concepts."
+        },
+        "timestamp": "2025-11-21T02:01:51.333Z"
+      },
+      {
+        "id": "1763690515169",
+        "text": "Read 20 pages of orbital mechanics textbook",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 4
+            },
+            {
+              "pillarIndex": 5,
+              "score": 3
+            },
+            {
+              "pillarIndex": 7,
+              "score": 2
+            }
+          ],
+          "summary": "Reading an orbital mechanics textbook directly contributes to foundational knowledge in Education & Academics. It also builds essential Space Exploration Knowledge, as orbital mechanics is fundamental to spaceflight. Furthermore, it supports Adaptability & Resilience by developing problem-solving skills and a deeper understanding of complex systems, and Continuous Improvement & Learning by expanding knowledge base."
+        },
+        "timestamp": "2025-11-21T02:01:55.169Z"
+      },
+      {
+        "id": "1763690518655",
+        "text": "Read 20 pages of orbital mechanics textbook",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 4
+            },
+            {
+              "pillarIndex": 4,
+              "score": 3
+            },
+            {
+              "pillarIndex": 7,
+              "score": 2
+            }
+          ],
+          "summary": "Reading an orbital mechanics textbook directly contributes to building a strong foundation in Education & Academics and deepens Space Exploration Knowledge. It also supports Continuous Improvement & Learning by acquiring new, specialized information."
+        },
+        "timestamp": "2025-11-21T02:01:58.655Z"
+      },
+      {
+        "id": "1763690524262",
+        "text": "Wrote a blog post about space exploration",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 3
+            },
+            {
+              "pillarIndex": 4,
+              "score": 4
+            },
+            {
+              "pillarIndex": 7,
+              "score": 2
+            }
+          ],
+          "summary": "Writing a blog post about space exploration contributes to Education & Academics by solidifying knowledge and communicating it. It significantly enhances Space Exploration Knowledge by requiring research and synthesis of information. It also touches on Continuous Improvement & Learning by developing communication skills and potentially receiving feedback."
+        },
+        "timestamp": "2025-11-21T02:02:04.262Z"
+      },
+      {
+        "id": "1763690702340",
+        "text": "I did: Meditate",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 1,
+              "score": 5
+            },
+            {
+              "pillarIndex": 6,
+              "score": 3
+            }
+          ],
+          "summary": "Meditation significantly contributes to Physical & Mental Fitness by reducing stress, improving focus, and enhancing emotional regulation, all crucial for the demanding astronaut lifestyle. It also indirectly supports the Application & Selection Process by fostering a calm and centered mindset."
+        },
+        "timestamp": "2025-11-21T02:05:02.340Z"
+      },
+      {
+        "id": "1763690705492",
+        "text": "I did: Networking",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 3
+            },
+            {
+              "pillarIndex": 3,
+              "score": 4
+            },
+            {
+              "pillarIndex": 4,
+              "score": 2
+            },
+            {
+              "pillarIndex": 6,
+              "score": 3
+            }
+          ],
+          "summary": "Networking can lead to learning about educational paths and requirements (Education & Academics), understanding opportunities to gain experience and technical skills (Technical Skills & Experience), building connections with potential mentors or colleagues to develop teamwork and leadership abilities (Teamwork & Leadership), and potentially discovering insights into the selection process and requirements (Application & Selection Process)."
+        },
+        "timestamp": "2025-11-21T02:05:05.492Z"
+      },
+      {
+        "id": "1763691260639",
+        "text": "I did: Study Physics",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 5
+            },
+            {
+              "pillarIndex": 5,
+              "score": 3
+            },
+            {
+              "pillarIndex": 7,
+              "score": 3
+            }
+          ],
+          "summary": "Studying physics is fundamental for understanding the principles of spaceflight, orbital mechanics, and the physics of the universe, directly impacting Education & Academics and Space Exploration Knowledge. It also develops critical thinking and problem-solving skills that contribute to Adaptability & Resilience and Continuous Improvement."
+        },
+        "timestamp": "2025-11-21T02:14:20.639Z"
+      },
+      {
+        "id": "1763691263488",
+        "text": "I did: Meditate",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 1,
+              "score": 4
+            },
+            {
+              "pillarIndex": 5,
+              "score": 3
+            },
+            {
+              "pillarIndex": 7,
+              "score": 2
+            }
+          ],
+          "summary": "Meditation significantly contributes to Physical & Mental Fitness by reducing stress and improving focus. It also aids in Adaptability & Resilience by training the mind to handle challenging situations calmly. Furthermore, it supports Continuous Improvement & Learning by enhancing self-awareness and mental clarity."
+        },
+        "timestamp": "2025-11-21T02:14:23.488Z"
+      },
+      {
+        "id": "1763694492286",
+        "text": "I did: Meditate",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 1,
+              "score": 4
+            },
+            {
+              "pillarIndex": 6,
+              "score": 2
+            }
+          ],
+          "summary": "Meditation significantly contributes to Physical & Mental Fitness by reducing stress and improving focus, which are crucial for astronaut training and demanding environments. It also indirectly supports the Application & Selection Process by enhancing mental clarity and composure during interviews and assessments."
+        },
+        "timestamp": "2025-11-21T03:08:12.286Z"
+      },
+      {
+        "id": "1763694495804",
+        "text": "I did: Run 5km",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 1,
+              "score": 5
+            },
+            {
+              "pillarIndex": 6,
+              "score": 2
+            }
+          ],
+          "summary": "Running 5km significantly contributes to Physical & Mental Fitness by improving cardiovascular health and endurance. It also indirectly supports the Application & Selection Process by demonstrating discipline and a commitment to a healthy lifestyle, which are often evaluated during astronaut selection."
+        },
+        "timestamp": "2025-11-21T03:08:15.804Z"
+      }
+    ],
+    "pillarScores": [
+      23,
+      18,
+      0,
+      4,
+      9,
+      12,
+      10,
+      14
+    ],
+    "journalEntries": [
+      {
+        "id": "1763690858216",
+        "text": "Testing",
+        "images": [],
+        "tags": [
+          "Health",
+          "Joy",
+          "Help"
+        ],
+        "timestamp": "2025-11-21T02:07:38.216Z"
+      }
+    ]
+  },
+  "1763692796117": {
+    "id": "1763692796117",
+    "createdAt": "2025-11-21T02:39:56.117Z",
+    "mainGoal": "Become an Electronic music producer",
+    "pillars": [
+      {
+        "title": "Music Theory & Ear Training",
+        "subGoals": [
+          "Master fundamental music theory concepts (scales, chords, harmony)",
+          "Develop a strong understanding of rhythm and groove",
+          "Practice active listening to identify song structure and instrumentation",
+          "Learn to recognize and differentiate common electronic music genres",
+          "Train ear to identify melodies and basslines by ear",
+          "Understand basic synthesis principles (oscillators, filters, envelopes)",
+          "Learn to identify and analyze common chord progressions",
+          "Develop critical listening skills to analyze my own and others' music"
+        ]
+      },
+      {
+        "title": "Digital Audio Workstation (DAW) Proficiency",
+        "subGoals": [
+          "Become proficient in a chosen DAW (e.g., Ableton Live, FL Studio, Logic Pro)",
+          "Master basic DAW functions (recording, editing, mixing, arrangement)",
+          "Learn advanced DAW features and workflows",
+          "Understand and utilize automation extensively",
+          "Efficiently use MIDI editing and quantization tools",
+          "Explore and master audio effect plugins",
+          "Develop efficient project management within the DAW",
+          "Learn to navigate and customize the DAW interface for optimal workflow"
+        ]
+      },
+      {
+        "title": "Sound Design & Synthesis",
+        "subGoals": [
+          "Understand the fundamentals of subtractive, additive, and FM synthesis",
+          "Learn to create compelling basslines and lead sounds from scratch",
+          "Master sound manipulation techniques (sampling, granular synthesis)",
+          "Develop a signature sound palette",
+          "Experiment with hardware and software synthesizers",
+          "Learn to use synthesizers to create atmospheric pads and textures",
+          "Understand the role of envelopes and LFOs in sound shaping",
+          "Explore creative ways to process and layer sounds"
+        ]
+      },
+      {
+        "title": "Arrangement & Songwriting",
+        "subGoals": [
+          "Learn to structure electronic music tracks effectively (intro, verse, chorus, breakdown, outro)",
+          "Develop strong melodic and harmonic ideas",
+          "Master dynamic contrast and tension building",
+          "Learn to create impactful transitions between song sections",
+          "Experiment with different arrangement techniques",
+          "Develop a systematic approach to finishing tracks",
+          "Understand the importance of repetition and variation in electronic music",
+          "Practice writing multiple song structures for different purposes"
+        ]
+      },
+      {
+        "title": "Mixing & Mastering Fundamentals",
+        "subGoals": [
+          "Understand the principles of gain staging and signal flow",
+          "Learn to use EQ effectively to sculpt individual sounds",
+          "Master compression for dynamic control and punch",
+          "Understand and apply reverb and delay for space and depth",
+          "Learn basic stereo imaging techniques",
+          "Understand the principles of mastering for loudness and polish",
+          "Develop critical listening skills for mixing and mastering",
+          "Reference professional tracks to guide my own mixing decisions"
+        ]
+      },
+      {
+        "title": "Creative Workflow & Inspiration",
+        "subGoals": [
+          "Establish a consistent creative routine",
+          "Actively seek inspiration from diverse sources",
+          "Develop a system for organizing sound libraries and samples",
+          "Embrace experimentation and happy accidents",
+          "Learn to overcome creative blocks",
+          "Collaborate with other musicians (even informally)",
+          "Set creative challenges for myself",
+          "Dedicate time for pure exploration and joy in making music"
+        ]
+      },
+      {
+        "title": "Learning & Skill Development",
+        "subGoals": [
+          "Dedicate at least X hours per week to learning and practice",
+          "Complete online courses or tutorials on specific production techniques",
+          "Read books and articles about electronic music production",
+          "Analyze the production techniques of favorite artists",
+          "Attend workshops or masterclasses when opportunities arise",
+          "Learn about music theory relevant to electronic music genres",
+          "Stay updated with new music production technologies and trends",
+          "Continuously seek feedback and apply it to improve"
+        ]
+      },
+      {
+        "title": "Releasing & Sharing Music",
+        "subGoals": [
+          "Finish and polish at least X tracks to a release-ready standard",
+          "Understand the basics of digital music distribution (DistroKid, TuneCore, etc.)",
+          "Learn how to create promotional materials (artwork, descriptions)",
+          "Develop a strategy for releasing music (single, EP, album)",
+          "Explore platforms for sharing music (SoundCloud, Bandcamp)",
+          "Engage with online music communities",
+          "Learn basic marketing and promotion strategies",
+          "Build a small but engaged audience for my music"
+        ]
+      }
+    ],
+    "commits": [
+      {
+        "id": "1763692806689",
+        "text": "Maintained a strict sleep schedule for a week",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 6,
+              "score": 5
+            },
+            {
+              "pillarIndex": 0,
+              "score": 3
+            },
+            {
+              "pillarIndex": 1,
+              "score": 2
+            },
+            {
+              "pillarIndex": 2,
+              "score": 2
+            },
+            {
+              "pillarIndex": 3,
+              "score": 2
+            },
+            {
+              "pillarIndex": 4,
+              "score": 2
+            },
+            {
+              "pillarIndex": 5,
+              "score": 2
+            },
+            {
+              "pillarIndex": 7,
+              "score": 1
+            }
+          ],
+          "summary": "A strict sleep schedule significantly boosts cognitive functions, enhancing focus, memory, and learning capacity, which are crucial for skill development in all areas of music production. Better rest improves creativity and problem-solving needed for sound design, arrangement, and mixing. It also supports consistent practice and dedication, essential for mastering a DAW and ear training. While it has less direct impact on releasing music, it lays a foundational mental state for sustained effort."
+        },
+        "timestamp": "2025-11-21T02:40:06.689Z"
+      },
+      {
+        "id": "1763692826800",
+        "text": "I did: Study Physics",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 2
+            },
+            {
+              "pillarIndex": 2,
+              "score": 2
+            },
+            {
+              "pillarIndex": 6,
+              "score": 3
+            }
+          ],
+          "summary": "Studying physics can indirectly benefit music production by enhancing understanding of acoustics and wave principles (Music Theory & Ear Training, Sound Design & Synthesis). It also fosters analytical thinking and problem-solving skills, which are crucial for technical aspects and continuous learning (Learning & Skill Development)."
+        },
+        "timestamp": "2025-11-21T02:40:26.800Z"
+      },
+      {
+        "id": "1763694381002",
+        "text": "I did: Meditate",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 3
+            },
+            {
+              "pillarIndex": 2,
+              "score": 2
+            },
+            {
+              "pillarIndex": 5,
+              "score": 4
+            },
+            {
+              "pillarIndex": 6,
+              "score": 3
+            }
+          ],
+          "summary": "Meditation can improve focus and concentration, which are essential for detailed tasks like ear training and sound design. It also fosters a calm mental state conducive to creative thinking and inspiration, and enhances the ability to learn and absorb new information, supporting overall skill development."
+        },
+        "timestamp": "2025-11-21T03:06:21.002Z"
+      }
+    ],
+    "journalEntries": [
+      {
+        "id": "1763692839965",
+        "text": "Testing",
+        "images": [],
+        "tags": [
+          "one",
+          "two"
+        ],
+        "timestamp": "2025-11-21T02:40:39.965Z"
+      }
+    ],
+    "pillarScores": [
+      8,
+      2,
+      6,
+      2,
+      2,
+      6,
+      11,
+      1
+    ]
+  },
+  "1763694401703": {
+    "id": "1763694401703",
+    "createdAt": "2025-11-21T03:06:41.703Z",
+    "mainGoal": "Become A Data Scientist",
+    "pillars": [
+      {
+        "title": "Foundational Knowledge",
+        "subGoals": [
+          "Master Python programming fundamentals",
+          "Understand core statistical concepts (probability, hypothesis testing)",
+          "Grasp linear algebra and calculus basics relevant to ML",
+          "Learn SQL for database querying",
+          "Familiarize with data structures and algorithms",
+          "Understand version control (Git/GitHub)",
+          "Study data types and data manipulation techniques",
+          "Complete an introductory data science course"
+        ]
+      },
+      {
+        "title": "Technical Skills Development",
+        "subGoals": [
+          "Become proficient in Pandas for data manipulation",
+          "Master NumPy for numerical operations",
+          "Learn Matplotlib and Seaborn for data visualization",
+          "Understand and apply Scikit-learn for machine learning algorithms",
+          "Explore deep learning frameworks (TensorFlow/PyTorch)",
+          "Gain experience with data cleaning and preprocessing techniques",
+          "Practice feature engineering and selection",
+          "Build and deploy a simple machine learning model"
+        ]
+      },
+      {
+        "title": "Domain Expertise",
+        "subGoals": [
+          "Identify 2-3 target industries or domains",
+          "Study common data science applications within chosen domains",
+          "Learn domain-specific terminology and metrics",
+          "Analyze case studies from relevant industries",
+          "Seek mentorship from professionals in target domains",
+          "Understand ethical considerations in data science for specific fields",
+          "Participate in domain-specific data challenges",
+          "Develop a portfolio project related to a chosen domain"
+        ]
+      },
+      {
+        "title": "Portfolio Building",
+        "subGoals": [
+          "Complete 3-5 diverse data science projects",
+          "Document each project thoroughly (problem, data, methodology, results)",
+          "Create a professional GitHub profile showcasing projects",
+          "Develop clear and concise project summaries",
+          "Practice explaining projects to non-technical audiences",
+          "Contribute to open-source data science projects",
+          "Create a personal website or blog to showcase work",
+          "Seek feedback on portfolio projects from peers and mentors"
+        ]
+      },
+      {
+        "title": "Continuous Learning & Staying Updated",
+        "subGoals": [
+          "Follow leading data science blogs and publications",
+          "Subscribe to relevant newsletters",
+          "Attend webinars and online workshops",
+          "Read research papers on emerging topics",
+          "Join online communities and forums (e.g., Kaggle, Stack Overflow)",
+          "Experiment with new tools and libraries",
+          "Dedicate time weekly for learning new concepts",
+          "Set learning goals for the next 6 months"
+        ]
+      },
+      {
+        "title": "Networking & Community Engagement",
+        "subGoals": [
+          "Attend local data science meetups",
+          "Connect with data scientists on LinkedIn",
+          "Participate actively in online forums and discussions",
+          "Seek informational interviews with experienced professionals",
+          "Offer help and insights to others in the community",
+          "Present a project or topic at a meetup",
+          "Build relationships with peers and potential mentors",
+          "Collaborate on a project with community members"
+        ]
+      },
+      {
+        "title": "Job Application & Interview Preparation",
+        "subGoals": [
+          "Tailor resume and cover letters for data science roles",
+          "Practice common data science interview questions (technical and behavioral)",
+          "Prepare to discuss portfolio projects in detail",
+          "Study case studies for interview problem-solving",
+          "Understand typical company interview processes",
+          "Mock interviews with peers or mentors",
+          "Research target companies and their data science teams",
+          "Develop a strategy for the job search"
+        ]
+      },
+      {
+        "title": "Personal Growth & Mindset",
+        "subGoals": [
+          "Cultivate curiosity and a passion for problem-solving",
+          "Develop resilience to overcome challenges and setbacks",
+          "Practice effective time management and discipline",
+          "Improve communication and storytelling skills",
+          "Learn to present complex information clearly",
+          "Seek constructive feedback and act on it",
+          "Maintain a healthy work-life balance",
+          "Celebrate small wins and track progress regularly"
+        ]
+      }
+    ],
+    "commits": [
+      {
+        "id": "1763694410425",
+        "text": "I did: Meditate",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 7,
+              "score": 4
+            }
+          ],
+          "summary": "Meditation directly supports personal growth and mindset by improving focus, reducing stress, and enhancing mental clarity, which are all crucial for tackling the demanding learning and problem-solving inherent in becoming a data scientist."
+        },
+        "timestamp": "2025-11-21T03:06:50.425Z"
+      },
+      {
+        "id": "1763694413324",
+        "text": "I did: Networking",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 6,
+              "score": 5
+            },
+            {
+              "pillarIndex": 5,
+              "score": 5
+            },
+            {
+              "pillarIndex": 2,
+              "score": 3
+            },
+            {
+              "pillarIndex": 7,
+              "score": 2
+            }
+          ],
+          "summary": "Networking directly contributes to 'Job Application & Interview Preparation' and 'Networking & Community Engagement' by building connections and learning from others. It can also indirectly aid 'Domain Expertise' by exposing you to different industries and roles. 'Personal Growth & Mindset' is supported by developing communication and interpersonal skills."
+        },
+        "timestamp": "2025-11-21T03:06:53.324Z"
+      },
+      {
+        "id": "1763694416238",
+        "text": "I did: Run 5km",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 7,
+              "score": 4
+            }
+          ],
+          "summary": "Running 5km contributes to Personal Growth & Mindset by building discipline, resilience, and stress management, which are crucial for tackling the challenges of becoming a data scientist."
+        },
+        "timestamp": "2025-11-21T03:06:56.238Z"
+      }
+    ],
+    "journalEntries": [],
+    "pillarScores": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      5,
+      5,
+      10
+    ]
+  },
+  "1763694855874": {
+    "id": "1763694855874",
+    "createdAt": "2025-11-21T03:14:15.874Z",
+    "mainGoal": "Tener mejor salud a mis 44 años",
+    "pillars": [
+      {
+        "title": "Nutrición Balanceada",
+        "subGoals": [
+          "Consumir al menos 5 porciones de frutas y verduras al día.",
+          "Reducir el consumo de azúcares añadidos a menos de 25 gramos diarios.",
+          "Incorporar proteínas magras en cada comida principal.",
+          "Aumentar la ingesta de grasas saludables (aguacate, frutos secos, aceite de oliva).",
+          "Beber al menos 2 litros de agua al día.",
+          "Limitar el consumo de alimentos procesados y comida rápida a una vez por semana.",
+          "Preparar al menos 3 comidas caseras a la semana.",
+          "Explorar y probar una nueva verdura o fruta exótica cada mes."
+        ]
+      },
+      {
+        "title": "Actividad Física Regular",
+        "subGoals": [
+          "Realizar 150 minutos de ejercicio aeróbico moderado a la semana.",
+          "Incorporar 2 sesiones de entrenamiento de fuerza a la semana.",
+          "Caminar al menos 30 minutos al día.",
+          "Realizar estiramientos suaves durante 10 minutos diarios.",
+          "Probar una nueva actividad física al mes (ej: yoga, natación, senderismo).",
+          "Subir escaleras en lugar de usar el ascensor siempre que sea posible.",
+          "Despertarme 30 minutos antes para hacer ejercicio ligero.",
+          "Mantener un registro semanal de mi actividad física."
+        ]
+      },
+      {
+        "title": "Sueño Reparador",
+        "subGoals": [
+          "Dormir entre 7 y 8 horas por noche de forma consistente.",
+          "Establecer un horario fijo para acostarme y levantarme, incluso los fines de semana.",
+          "Crear una rutina relajante antes de dormir (leer, meditar, baño tibio).",
+          "Evitar pantallas (teléfono, tablet, TV) al menos una hora antes de dormir.",
+          "Asegurar que mi habitación esté oscura, silenciosa y a una temperatura agradable.",
+          "Limitar la cafeína y el alcohol, especialmente por la tarde.",
+          "Si me despierto en la noche, evitar mirar el reloj.",
+          "Meditar 5 minutos antes de acostarme para calmar la mente."
+        ]
+      },
+      {
+        "title": "Salud Mental y Emocional",
+        "subGoals": [
+          "Practicar mindfulness o meditación diariamente durante 10 minutos.",
+          "Dedicar tiempo a actividades placenteras y hobbies cada semana.",
+          "Practicar la gratitud, anotando 3 cosas por las que estoy agradecido al día.",
+          "Establecer límites claros en mis relaciones personales y profesionales.",
+          "Aprender a decir 'no' cuando sea necesario para proteger mi energía.",
+          "Buscar apoyo social y hablar abiertamente sobre mis sentimientos.",
+          "Identificar y gestionar mis factores de estrés.",
+          "Pasar tiempo en la naturaleza al menos una vez por semana."
+        ]
+      },
+      {
+        "title": "Prevención y Cuidado Médico",
+        "subGoals": [
+          "Realizar un chequeo médico anual completo.",
+          "Mantener al día mis vacunas.",
+          "Realizar autoexámenes regulares (ej: piel, mamas).",
+          "Consultar al dentista para revisiones y limpiezas semestrales.",
+          "Informarme sobre signos tempranos de posibles enfermedades.",
+          "Evitar hábitos perjudiciales como fumar y el consumo excesivo de alcohol.",
+          "Controlar mi presión arterial y niveles de colesterol regularmente.",
+          "Tener un botiquín de primeros auxilios bien surtido y familiarizarme con su uso."
+        ]
+      },
+      {
+        "title": "Gestión del Estrés",
+        "subGoals": [
+          "Identificar las principales fuentes de estrés en mi vida.",
+          "Implementar técnicas de relajación como respiración profunda o visualización.",
+          "Establecer tiempo libre para desconectar del trabajo y las responsabilidades.",
+          "Priorizar tareas para evitar sentirme abrumado.",
+          "Practicar la auto-compasión y ser amable conmigo mismo.",
+          "Participar en actividades que me recarguen energía (ej: hobbies, paseos).",
+          "Buscar ayuda profesional si el estrés se vuelve inmanejable.",
+          "Practicar afirmaciones positivas diarias para contrarrestar pensamientos negativos."
+        ]
+      },
+      {
+        "title": "Hidratación y Bienestar Hídrico",
+        "subGoals": [
+          "Llevar siempre conmigo una botella de agua reutilizable.",
+          "Establecer recordatorios para beber agua a lo largo del día.",
+          "Incorporar alimentos ricos en agua (sandía, pepino, naranjas).",
+          "Reducir el consumo de bebidas azucaradas y con cafeína.",
+          "Preparar infusiones de hierbas relajantes y sin cafeína.",
+          "Observar el color de mi orina como indicador de hidratación (debe ser pálido).",
+          "Aumentar la ingesta de agua antes, durante y después del ejercicio.",
+          "Usar un humidificador si el ambiente es seco para ayudar a la hidratación de las mucosas."
+        ]
+      },
+      {
+        "title": "Conciencia Corporal y Autocuidado",
+        "subGoals": [
+          "Prestar atención a las señales de mi cuerpo (hambre, sed, fatiga, dolor).",
+          "Realizar masajes o baños relajantes una vez a la semana.",
+          "Dedicar tiempo a la higiene personal de forma consciente y placentera.",
+          "Evitar la multitarea y centrarme en una actividad a la vez.",
+          "Practicar el autocuidado sin culpa, reconociendo que es una necesidad.",
+          "Celebrar mis pequeños logros y progresos en el camino hacia una mejor salud.",
+          "Aprender técnicas de relajación muscular progresiva.",
+          "Establecer un horario semanal que incluya tiempo para mí y mis necesidades."
+        ]
+      }
+    ],
+    "commits": [
+      {
+        "id": "1763695132917",
+        "text": "hoy me dormi a las 2am",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 2,
+              "score": 5
+            },
+            {
+              "pillarIndex": 6,
+              "score": 2
+            },
+            {
+              "pillarIndex": 7,
+              "score": 3
+            }
+          ],
+          "summary": "Dormir a las 2 am impacta directamente el pilar de Sueño Reparador, ya que indica un horario de sueño poco saludable. También puede afectar la Hidratación y Bienestar Hídrico si se consumieron líquidos antes de acostarse y la Conciencia Corporal y Autocuidado al no priorizar el descanso."
+        },
+        "timestamp": "2025-11-21T03:18:52.917Z"
+      },
+      {
+        "id": "1763695148378",
+        "text": "hoy tome 20 cervezas",
+        "classification": {
+          "impacts": [
+            {
+              "pillarIndex": 0,
+              "score": 1
+            },
+            {
+              "pillarIndex": 1,
+              "score": 1
+            },
+            {
+              "pillarIndex": 3,
+              "score": 2
+            },
+            {
+              "pillarIndex": 6,
+              "score": 2
+            }
+          ],
+          "summary": "Drinking 20 beers has a negative impact on Nutrition Balanceada, Actividad Física Regular, and Hidratación y Bienestar Hídrico due to the high caloric content and dehydration. It might temporarily affect Salud Mental y Emocional through intoxication but doesn't contribute to long-term well-being in this pillar. It does not contribute to other pillars."
+        },
+        "timestamp": "2025-11-21T03:19:08.378Z"
+      }
+    ],
+    "journalEntries": [],
+    "pillarScores": [
+      1,
+      1,
+      5,
+      2,
+      0,
+      0,
+      4,
+      3
+    ]
+  }
+}
